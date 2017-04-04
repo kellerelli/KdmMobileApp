@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@+string/ChosenMonster"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chosenMonster"
+        android:layout_marginRight="98.5dp" />
+    <Button
+        android:text="Choose Monster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChooseMonsterbutton"
+        android:layout_marginRight="0.0dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChosenWeapon"
+        android:text="@+string/ChosenWeapon" />
+    <Button
+        android:text="Choose Weapon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChoosenWeaponButton" />
+    <Button
+        android:text="Start Showdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartShowdown"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="63.5dp"
+        android:layout_marginLeft="119.0dp"
+        android:layout_marginRight="0.0dp" />
+</LinearLayout>

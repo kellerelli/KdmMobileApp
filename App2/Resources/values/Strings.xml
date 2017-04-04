@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">App2</string>
+    <string name="ChosenMonster">Monster Not Chosen</string>
+    <string name="ChosenWeapon">Weapon Not Chosen</string>
+</resources>
